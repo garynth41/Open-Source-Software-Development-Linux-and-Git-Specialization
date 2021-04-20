@@ -1,0 +1,15 @@
+Lab 1: Customizing the Prompt
+
+Set the prompt to be:
+
+1) current directory>  
+   (i.e. /home/coop> )
+
+   PS1='\w''>' (OR)  
+   PS1='`pwd`>' (BETTER)
+
+2) machine name:user:current directory> 
+   (i.e., p133:coop:/home/coop> )
+
+   PS1='\h:\u:\w>' (OR) 
+   PS1='\h:\u:'`pwd`'>' (BETTER)
